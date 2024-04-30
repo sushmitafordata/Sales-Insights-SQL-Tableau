@@ -150,6 +150,13 @@ where sales.date.year=2020
 and sales.transactions.market_code="Mark002";
 ```
 
+### **STEP-3 Sales Insights:Data Cleaning & ETL in Tableau**
+
+- Data modelling-Connected the different tables of the database to establish relationship between them.
+- Performed ETL and data cleaning on the imported data.
+  * Perform filtration in Transaction’s table:Filtered out the negative sales amount from the transaction table.
+  * Excluded the markets who are no longer in business.
+  * Converted the amount in USD to INR as we are analysing business in India.
 
 
 
