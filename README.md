@@ -41,7 +41,7 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
 **4. Success Criteria**
 - Defining how the project was successful after the completion of the project for which company may have spent few million dollars.
 - We need to specify the exact success criteria like
-  * 1. We want the sales team to make better decisions and prove say 12% cost savings.
+  * We want the sales team to make better decisions and prove say 12% cost savings.
   * Bring in powerful sales insights dashboards with latest up to date information.
   * Avoid manual data gathering through excel which can save 20% of their business time thereby they can invest that time in other value added tasks.
   * Flowchart of project execution
@@ -56,7 +56,8 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
   **Analysis of data in MySql Workbench**
    
    1.To find of all customers records
-   ```SELECT * FROM sales.transactions;``
+   
+   ```sql SELECT * FROM sales.transactions;```
 
 
 
