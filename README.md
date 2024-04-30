@@ -68,7 +68,7 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
 -- Query Result = 150281 sales transactions --
 
    ```
-   3.Checking the transaction done in chennai using it's market code
+   **3.Checking the transaction done in chennai using it's market code**
 
  ```
       select COUNT(*)
@@ -76,9 +76,78 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
       where market_code="Mark001";
 
  -- Query Result = 1035 sales transactions --
+ 
+     select *
+     from transactions 
+     where market_code="Mark001";
 
    ```
+   **4.Filtering out the transactions done in USD**
 
+ ```
+  select * 
+  from transactions 
+  where currency ="USD";
+      
+   ```
+   **5.Transactions done in 2020**
+
+```
+  select *
+ from transactions t
+ join date d
+ on t.order_date= d.date
+ where d.year=2020;
+      
+   ```
+  **6.Total Sales in 2020**
+
+```
+ select  sum(sales_amount)
+from transactions t
+join date d
+on t.order_date= d.date
+where d.year=2020;
+
+-- Query Result = Rs 142235559 (142.24 million)--
+      
+   ```
+  **7.Total Sales in 2019**
+
+```
+select  sum(sales_amount)
+from transactions t
+join date d
+on t.order_date= d.date
+where d.year=2019;
+
+-- Query Result = Rs 336452114 (336.45 million)
+      
+   ```
+
+``` #CONCLUSION-- The revenue has declined from 2019 to 2020```
+
+**8.Total revenue in year 2020 in Chennai**
+
+```
+SELECT SUM(sales.transactions.sales_amount) 
+FROM sales.transactions 
+INNER JOIN sales.date 
+ON sales.transactions.order_date=sales.date.date
+where sales.date.year=2020
+and sales.transactions.market_code="Mark001";
+```
+
+
+**8.Total revenue in year 2020 in Mumbai**
+```
+SELECT SUM(sales.transactions.sales_amount)
+FROM sales.transactions
+INNER JOIN sales.date
+ON sales.transactions.order_date=sales.date.date
+where sales.date.year=2020
+and sales.transactions.market_code="Mark002";
+```
 
 
 
