@@ -15,24 +15,26 @@
 #### **Creating the layout of the project using AIM'S GRID**
 AIMS grid is a very useful tool to improve Project Management skills for Project managers, Team Leaders etc. It helps to clarify a task and keep the process simple. AIMS grid presents a project in a very concise manner.
 
-##### AIMS Grid 4 Components
+#### ** AIMS Grid 4 Components**
+
 **1. Purpose**
-What do we want to achieve? What to do in order to achieve it?
-In our case, the purpose would be to make visible the sales insights of different regions and to understand the trend in sales based on previous reports and study why there was a decrease and finally increase sales in the down performing regions.
+- What do we want to achieve? What to do in order to achieve it?
+- In our case, the purpose would be to make visible the sales insights of different regions and to understand the trend in sales based on previous reports and study why there was a decrease and finally increase sales in the down performing regions.
+
+  
 **2. Stakeholders**
-Which teams or Who from the company will be involved?
-In our Atliq case the following teams will be involved
-* Sales Director
-* Marketing Team
-* Customer Service Team
-* Data and Analytics Team 
-* IT Team
+- Which teams or Who from the company will be involved?
+- In our Atliq case the following teams will be involved
+  * Sales Director
+  * Marketing Team
+  * Customer Service Team
+  * Data and Analytics Team 
+  * IT Team
 
 **3. End Result**
-After the project is over what do we want to achieve? Defining the end result clearly is very important. It can never be blurry statements like -
-I want to increase sales insight. Instead a solid platform where the result can be projected.
-In our case, this will be a Tableau Dashboard which is automated and provides sales insights which are quick and latest thereby
-data driven decision making can be implemented. This will help the sales director and regional managers to look into real time information on the sales numbers.
+- After the project is over what do we want to achieve? Defining the end result clearly is very important.
+-  It can never be blurry statements like -I want to increase sales insight. Instead a solid platform where the result can be projected.
+- In our case, this will be a Tableau Dashboard which is automated and provides sales insights which are quick and latest thereby data driven decision making can be implemented. This will help the sales director and regional managers to look into real time information on the sales numbers.
 
 
 
