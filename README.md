@@ -74,17 +74,18 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
       select COUNT(*)
       from transactions 
       where market_code="Mark001";
-
  -- Query Result = 1035 sales transactions --
- 
+```
+ ```
      select *
      from transactions 
      where market_code="Mark001";
+```
 
-   ```
+  
    **4.Filtering out the transactions done in USD**
 
- ```
+```
   select * 
   from transactions 
   where currency ="USD";
@@ -139,7 +140,7 @@ and sales.transactions.market_code="Mark001";
 ```
 
 
-**8.Total revenue in year 2020 in Mumbai**
+**9.Total revenue in year 2020 in Mumbai**
 ```
 SELECT SUM(sales.transactions.sales_amount)
 FROM sales.transactions
