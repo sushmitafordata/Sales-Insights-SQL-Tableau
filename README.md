@@ -53,11 +53,19 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
 -  We will analyse this database and than hook it up with Tableau.
 -  The import of data is done from an already existing MySQL file.
 -  This file has to be loaded into MySQL workbench for further data analysis.
-  **Analysis of data in MySql Workbench**
+  
+  #### **Analysis of data in MySql Workbench**
    
-   1.To find of all customers records
+   **1.To find of all customers records**
    
-   ```sql SELECT * FROM sales.transactions;```
+   ``` SELECT * FROM sales.transactions;```
+   
+   **2.To find total number of customers**
+   ```select count(*) 
+      FROM sales.transactions;
+
+-- Query Result = 150281 sales transactions
+```
 
 
 
