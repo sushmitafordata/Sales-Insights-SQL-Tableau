@@ -11,11 +11,13 @@
 - Sales director of the AltiQ hardware, decided to build a Tableau Dashboard for converting the data into visual representation to make data driven decisions.
 - Just to be double sure of the insights derived using tableau ,SQL has been used to take a quick look over the data.
 
-### STEP - 1
-#### **Creating the layout of the project using AIM'S GRID**
+### **STEP-1 Creating the layout of the project using AIM'S GRID**
 AIMS grid is a very useful tool to improve Project Management skills for Project managers, Team Leaders etc. It helps to clarify a task and keep the process simple. AIMS grid presents a project in a very concise manner.
 
-#### ** AIMS Grid 4 Components**
+ ![image](https://github.com/sushmitafordata/Sales-Insights-SQL-Tableau/assets/135410984/874b9aeb-5452-4444-9592-b04f01801247)
+
+
+#### **AIMS Grid 4 Components**
 
 **1. Purpose**
 - What do we want to achieve? What to do in order to achieve it?
@@ -35,6 +37,18 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
 - After the project is over what do we want to achieve? Defining the end result clearly is very important.
 -  It can never be blurry statements like -I want to increase sales insight. Instead a solid platform where the result can be projected.
 - In our case, this will be a Tableau Dashboard which is automated and provides sales insights which are quick and latest thereby data driven decision making can be implemented. This will help the sales director and regional managers to look into real time information on the sales numbers.
+
+**4. Success Criteria**
+- Defining how the project was successful after the completion of the project for which company may have spent few million dollars.
+- We need to specify the exact success criteria like
+  * 1. We want the sales team to make better decisions and prove say 12% cost savings.
+  * Bring in powerful sales insights dashboards with latest up to date information.
+  * Avoid manual data gathering through excel which can save 20% of their business time thereby they can invest that time in other value added tasks.
+
+### **STEP-2 Sales Insights:Data Analysis Using SQL**
+
+
+
 
 
 
