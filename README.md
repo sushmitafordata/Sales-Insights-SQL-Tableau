@@ -61,11 +61,23 @@ AIMS grid is a very useful tool to improve Project Management skills for Project
    ``` SELECT * FROM sales.transactions;```
    
    **2.To find total number of customers**
-   ```select count(*) 
+   ```
+      select count(*) 
       FROM sales.transactions;
 
--- Query Result = 150281 sales transactions
-```
+-- Query Result = 150281 sales transactions --
+
+   ```
+   3.Checking the transaction done in chennai using it's market code
+
+ ```
+      select COUNT(*)
+      from transactions 
+      where market_code="Mark001";
+
+ -- Query Result = 1035 sales transactions --
+
+   ```
 
 
 
