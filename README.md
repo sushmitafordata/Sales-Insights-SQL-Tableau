@@ -1,8 +1,10 @@
 # Sales-Insights-Atliq Hardware
 
+[LINK TO LIVE DASHBOARD](https://public.tableau.com/views/Sales_Insights-AtliqHardware/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
+
 ## Problem statement
 
-- AtliQ Hardware, a major computer hardware and peripherals company in India and US, is facing challenges in understanding its sales performance, which has been declining lately.
+- AtliQ Hardware, a major computer hardware and peripherals company in India , is facing challenges in understanding its sales performance, which has been declining lately.
 - When contacted for updates, regional managers tend to present the information in an overly optimistic portrayal rather than providing an accurate assessment of the situation.
 -  This makes it hard for the director to make sense of the data and make good decisions.
 -   It's clear that the company needs better communication to figure out why sales are dropping and come up with effective solutions for improvement.
@@ -157,6 +159,12 @@ and sales.transactions.market_code="Mark002";
   * Perform filtration in Transaction’s table:Filtered out the negative sales amount from the transaction table.
   * Excluded the markets who are no longer in business.
   * Converted the amount in USD to INR as we are analysing business in India.
+
+### **STEP-4 Sales Insights:Dashboard creation in Tableau**
+
+![Sales_Insights- Atliq Hardware](https://github.com/sushmitafordata/Sales-Insights-SQL-Tableau/assets/135410984/86ba1f64-1731-4025-8305-ec2bcfe77f1d)
+
+
 
 
 
