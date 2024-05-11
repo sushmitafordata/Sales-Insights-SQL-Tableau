@@ -2,6 +2,9 @@
 
 [LINK TO LIVE DASHBOARD](https://public.tableau.com/views/Sales_Insights-AtliqHardware/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
+![Sales Dashboard](https://github.com/sushmitafordata/Sales-Insights-SQL-Tableau/assets/135410984/9778beb6-a5c6-4da6-ace8-72df5e634981)
+
+
 ## Problem statement
 
 - AtliQ Hardware, a major computer hardware and peripherals company in India , is facing challenges in understanding its sales performance, which has been declining lately.
