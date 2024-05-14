@@ -1,6 +1,6 @@
 # Sales-Insights-Atliq Hardware
 
-[LINK TO LIVE DASHBOARD](https://public.tableau.com/views/Sales_Insights-AtliqHardware/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
+**[LIVE DASHBOARD](https://public.tableau.com/views/Sales_Insights-AtliqTechnologies/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)**
 
 ![Sales Dashboard](https://github.com/sushmitafordata/Sales-Insights-SQL-Tableau/assets/135410984/9778beb6-a5c6-4da6-ace8-72df5e634981)
 
